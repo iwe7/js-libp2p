@@ -10,6 +10,7 @@ const errCode = require('err-code')
 const each = require('async/each')
 const series = require('async/series')
 const parallel = require('async/parallel')
+const setImmediate = require('async/setImmediate')
 
 const PeerBook = require('peer-book')
 const Switch = require('libp2p-switch')
@@ -237,7 +238,9 @@ class Node extends EventEmitter {
    */
   dialProtocol (peer, protocol, callback) {
     if (!this.isStarted()) {
-      return callback(notStarted('dial', this.state._state))
+      return setImmediate(() => {
+        callback(notStarted('dial', this.state._state))
+      })
     }
 
     if (typeof protocol === 'function') {
@@ -267,7 +270,9 @@ class Node extends EventEmitter {
    */
   dialFSM (peer, protocol, callback) {
     if (!this.isStarted()) {
-      return callback(notStarted('dial', this.state._state))
+      return setImmediate(() => {
+        callback(notStarted('dial', this.state._state))
+      })
     }
 
     if (typeof protocol === 'function') {
@@ -298,7 +303,9 @@ class Node extends EventEmitter {
 
   ping (peer, callback) {
     if (!this.isStarted()) {
-      return callback(notStarted('ping', this.state._state))
+      return setImmediate(() => {
+        callback(notStarted('ping', this.state._state))
+      })
     }
 
     this._getPeerInfo(peer, (err, peerInfo) => {
