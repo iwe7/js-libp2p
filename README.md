@@ -37,13 +37,13 @@
 
 [David Dias](https://github.com/diasdavid/)
 
-## Lead Maintainer
+## 技术
 
 [Jacob Heun](https://github.com/jacobheun/)
 
 ## 目录
 
-- [Background](#background)
+- [概述](#概述)
 - [Bundles](#bundles)
 - [Usage](#usage)
   - [Install](#install)
@@ -56,7 +56,7 @@
 - [Contribute](#contribute)
 - [License](#license)
 
-## Background
+## 概述
 
 libp2p is the product of a long and arduous quest to understand the evolution of the Internet networking stack. In order to build P2P applications, devs have long had to made custom ad-hoc solutions to fit their needs, sometimes making some hard assumptions about their runtimes and the state of the network at the time of their development. Today, looking back more than 20 years, we see a clear pattern in the types of mechanisms built around the Internet Protocol, IP, which can be found throughout many layers of the OSI layer system, libp2p distils these mechanisms into flat categories and defines clear interfaces that once exposed, enable other protocols and applications to use and swap them, enabling upgradability and adaptability for the runtime, without breaking the API.
 
