@@ -31,7 +31,7 @@
 
 [![Throughput Graph](https://graphs.waffle.io/libp2p/js-libp2p/throughput.svg)](https://waffle.io/libp2p/js-libp2p/metrics/throughput)
 
-[**`Weekly Core Dev Calls`**](https://github.com/ipfs/pm/issues/650)
+[**`周报`**](https://github.com/ipfs/pm/issues/650)
 
 ## 技术
 
