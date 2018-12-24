@@ -69,16 +69,14 @@ We are in the process of writing better documentation, blog posts, tutorials and
 - Articles
   - [The overview of libp2p](https://github.com/libp2p/libp2p#description)
 
-To sum up, libp2p is a "network stack" -- a protocol suite -- that cleanly separates concerns, and enables sophisticated applications to only use the protocols they absolutely need, without giving up interoperability and upgradeability. libp2p grew out of IPFS, but it is built so that lots of people can use it, for lots of different projects.
+总之, libp2p 是一个网络堆栈 -- 一个协议套件 -- 清晰的分离关注点。
 
-## Bundles
+## 工具包
 
-With its modular nature, libp2p can be found being used in different projects with different sets of features, while preserving the same top level API. `js-libp2p` is only a skeleton and should not be installed directly, if you are looking for a prebundled libp2p stack, please check:
-
+鉴于libp2p的特性，libp2p可以适用于各种项目。libp2p只是一个框架，围绕这个框架可以开发很多应用。
 - [libp2p-ipfs-nodejs](https://github.com/ipfs/js-ipfs/tree/master/src/core/runtime/libp2p-nodejs.js) - The libp2p build used by js-ipfs when run in Node.js
 - [libp2p-ipfs-browser](https://github.com/ipfs/js-ipfs/tree/master/src/core/runtime/libp2p-browser.js) - The libp2p build used by js-ipfs when run in a Browser (that supports WebRTC)
-
-If you have developed a libp2p bundle, please consider submitting it to this list so that it can be found easily by the users of libp2p.
+如果您已经参与了libp2p开发, 请提交到这个列表，以便其他人使用。
 
 ## 安装
 
