@@ -45,10 +45,10 @@
 
 - [概述](#概述)
 - [Bundles](#bundles)
-- [Usage](#usage)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [API](#api)
+- [使用](#使用)
+  - [安装](#安装)
+  - [使用](#使用)
+  - [文档](#文档)
     - [Events](#events)
 - [Development](#development)
   - [Tests](#tests)
@@ -80,7 +80,7 @@ With its modular nature, libp2p can be found being used in different projects wi
 
 If you have developed a libp2p bundle, please consider submitting it to this list so that it can be found easily by the users of libp2p.
 
-## Install
+## 安装
 
 Again, as noted above, this module is only a skeleton and should not be used directly other than libp2p bundle implementors that want to extend its code.
 
@@ -88,7 +88,7 @@ Again, as noted above, this module is only a skeleton and should not be used dir
 npm install --save libp2p
 ```
 
-## Usage
+## 使用
 
 ### [Tutorials and Examples](/examples)
 
@@ -193,7 +193,7 @@ class Node extends libp2p {
 // Now all the nodes you create, will have TCP, WebSockets, SPDY, MPLEX, SECIO and MulticastDNS support.
 ```
 
-### API
+### 文档
 
 #### Create a Node - `new libp2p.Node(options)`
 
