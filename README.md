@@ -74,8 +74,10 @@ We are in the process of writing better documentation, blog posts, tutorials and
 ## 工具包
 
 鉴于libp2p的特性，libp2p可以适用于各种项目。libp2p只是一个框架，围绕这个框架可以开发很多应用。
+
 - [libp2p-ipfs-nodejs](https://github.com/ipfs/js-ipfs/tree/master/src/core/runtime/libp2p-nodejs.js) - The libp2p build used by js-ipfs when run in Node.js
 - [libp2p-ipfs-browser](https://github.com/ipfs/js-ipfs/tree/master/src/core/runtime/libp2p-browser.js) - The libp2p build used by js-ipfs when run in a Browser (that supports WebRTC)
+
 如果您已经参与了libp2p开发, 请提交到这个列表，以便其他人使用。
 
 ## 安装
