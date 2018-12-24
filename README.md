@@ -50,11 +50,11 @@
   - [使用](#使用)
   - [文档](#文档)
     - [Events](#events)
-- [Development](#development)
-  - [Tests](#tests)
-  - [Packages](#packages)
-- [Contribute](#contribute)
-- [License](#license)
+- [开发](#开发)
+  - [测试](#测试)
+  - [工具包](#工具包)
+- [贡献](#贡献)
+- [许可证](#许可证)
 
 ## 概述
 
@@ -480,7 +480,7 @@ Libp2p provides support for connection protection, such as for private networks.
 Some available network protectors:
 * [libp2p-pnet](https://github.com/libp2p/js-libp2p-pnet)
 
-## Development
+## 开发
 
 **Clone and install dependencies:**
 
@@ -490,7 +490,7 @@ Some available network protectors:
 > npm install
 ```
 
-### Tests
+### 测试
 
 #### Run unit tests
 
@@ -517,7 +517,7 @@ N/A
 N/A
 ```
 
-### Packages
+### 工具包
 
 List of packages currently in existence for libp2p
 
@@ -587,7 +587,7 @@ List of packages currently in existence for libp2p
 | **Utilities**                                                                                 |                                                                                                                                                                              |                                                                                                                                                                   |                                                                                                                                                                              |                                                                                                                                                                                |                                                        |
 | [`p2pcat`](//github.com/libp2p/js-p2pcat)                                                     | [![npm](https://img.shields.io/npm/v/p2pcat.svg?maxAge=86400&style=flat-square)](//github.com/libp2p/js-p2pcat/releases)                                                     | [![Deps](https://david-dm.org/libp2p/js-p2pcat.svg?style=flat-square)](https://david-dm.org/libp2p/js-p2pcat)                                                     | N/A                                                                                                                                                                          | [![codecov](https://codecov.io/gh/libp2p/js-p2pcat/branch/master/graph/badge.svg)](https://codecov.io/gh/libp2p/js-p2pcat)                                                     | N/A                                                    |
 
-## Contribute
+## 贡献
 
 The libp2p implementation in JavaScript is a work in progress. As such, there are a few things you can do right now to help out:
 
@@ -595,6 +595,6 @@ The libp2p implementation in JavaScript is a work in progress. As such, there ar
  - **Perform code reviews**. Most of this has been developed by @diasdavid, which means that more eyes will help a) speed the project along b) ensure quality and c) reduce possible future bugs.
  - **Add tests**. There can never be enough tests.
 
-## License
+## 许可证
 
 [MIT](LICENSE) © Protocol Labs
