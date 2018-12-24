@@ -27,13 +27,13 @@
 
 虽然过了这么久了, 但是这个项目还是处于Alpha阶段, 很多功能正在完善, API 可能会有变动..
 
-**Want to get started?** Check our [examples folder](/examples). You can check the development status at the [Waffle Board](https://waffle.io/libp2p/js-libp2p).
+**想开始么？** 示例[examples folder](/examples). 关注开发进展 [Waffle Board](https://waffle.io/libp2p/js-libp2p).
 
 [![Throughput Graph](https://graphs.waffle.io/libp2p/js-libp2p/throughput.svg)](https://waffle.io/libp2p/js-libp2p/metrics/throughput)
 
 [**`Weekly Core Dev Calls`**](https://github.com/ipfs/pm/issues/650)
 
-## Tech Lead
+## 技术
 
 [David Dias](https://github.com/diasdavid/)
 
@@ -41,7 +41,7 @@
 
 [Jacob Heun](https://github.com/jacobheun/)
 
-## Table of Contents
+## 目录
 
 - [Background](#background)
 - [Bundles](#bundles)
